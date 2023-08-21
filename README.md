@@ -15,6 +15,12 @@ I am a results-driven developer with a fervent passion for pushing the boundarie
 - 3D Art: Modeling, Sculpting, Animation
 - Music Recording and Production
 
+## Screen Shots
+
+![Alt text](image.png)
+
+![Alt text](image-1.png)
+
 ## Recent Projects
 
 ### Atlantic Glamping Full Stack Group Project
