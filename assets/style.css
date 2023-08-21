@@ -10,9 +10,9 @@ h1 {
   font-weight: 900;
 }
 .wrapper {
-  background-image: url("./assets/images/background.avif");
+  background-image: url("/assets/images/background.png");
   background-size: cover;
-  padding-bottom: 200px;
+  padding-bottom: 400px;
 }
 .mainNav {
   display: flex;
