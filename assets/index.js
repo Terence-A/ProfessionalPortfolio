@@ -4,8 +4,6 @@ const weatherApp = document.querySelector("#weatherApp");
 const employeeTracker = document.querySelector("#employeeTracker");
 const workDay = document.querySelector("#workDay");
 
-console.log(whatsForDinner);
-
 glamping.addEventListener("click", () => {
   location.href = "https://github.com/Terence-A/Atlantic-Glamping";
 });
