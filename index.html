@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="/assets/style.css" />
     <title>Terence Arseneault Portfolio</title>
   </head>
@@ -53,15 +54,13 @@
               src="./assets/images/atlanticGlamping.png"
               alt="image of website Atlantic Glamping"
             />
-            <h3>Atlantic Glamping Full Stack group Project</h3>  
+            <h3>Atlantic Glamping Full Stack group Project</h3> 
             <div class="roles">
                 <h4><span>Summary:</span> A comprehensive full-stack web application designed to facilitate the exploration of luxurious glamping destinations across Atlantic Canada.</h4>
                 <h4><span>Role:</span> Engaged in project management utilizing GitHub projects, implementing partials for EJS templating. Innovatively developed "Gamp," an interactive bot guiding users to personalized glamping sites by evaluating their preferences through a thought-provoking questionnaire.</h4>
             </div>
         </div>  
-    </div>
-               
-       
+    </div>       
             <div class="glampIcons">
                  <h4><span>Tools:</span></h4>
                 <img src="./assets/icons/html.svg" alt="">
@@ -75,13 +74,140 @@
             </div>  
       
           </div>
+          
+          <section class="top-cards">
           <div class="containerSmCard">
             <div class="smCard">
-
+                <h3>Whats for Dinner</h3>
+                <img src="./assets/images/whatsForDinner.png" alt="image of website whats for dinner">
+                <h4><span>Summary: </span>Front-End Application that solves a real-world problem by integrating data received from multiple server-side API requests.</h4>
+                <h4><span>Role: </span>Mock-up using figma, Vegan portion with API’s, front end.
+                </h4>
+                <div class="glampIcons">
+                    
+                    <div class="sm_icons">
+                        <div>
+                            <h5><span>Tools:</span></h5>
+                        </div>
+                        <img src="./assets/icons/api.svg" alt="">
+                        <img src="./assets/icons/figma.svg" alt="">
+                        <img src="./assets/icons/html.svg" alt="">
+                        <img src="./assets/icons/css.svg" alt="">
+                        <img src="./assets/icons/bootstrap.svg" alt="">
+                        <img src="./assets/icons/javascript.svg" alt="">
+                   </div>
+                  </div>
+               </div>  
             </div>
+            <div class="smCard weather-card">
+            <h3>Weather Dashboard</h3>
+                <img class="main-img" src="./assets/images/weatherDashboard.png" alt="image of website weather dashboard">
+                <h4><span>Summary: </span>For travelers to check weather in the city they are  visiting for a 5 day forecast</h4>
+                <h4><span>Role: </span>Sole author, mock-up provided.
+                </h4>
+              <div class="glampIcons">        
+                    <div class="sm_icons">
+                        <div>
+                            <h5><span>Tools:</span></h5>
+                        </div>
+                        <img src="./assets/icons/html.svg" alt="">
+                        <img src="./assets/icons/css.svg" alt="">
+                        <img src="./assets/icons/javascript.svg" alt="">
+                        <img src="./assets/icons/bootstrap.svg" alt="">
+                        <img src="./assets/icons/api.svg" alt="">
+                   </div>
+               </div>  
           </div>
-        </div>
+        </section>
+
+        <section class="bottom-cards">
+          <div class="containerSmCard">
+            <div class="smCard employeeCard">
+                <h3>Employee Management Tracker</h3>
+                <img src="./assets/images/employeeTracker.png" alt="image of website whats for dinner">
+                <h4><span>Summary: </span>Company Employee database. Able to view and manage the departments, roles, and employees in a company.</h4>
+                <h4><span>Role: </span>Sole author, from challenge. Created command-line app to manage a company's employee database.
+                </h4>
+                <div class="glampIcons">
+                    <div class="sm_icons">
+                        <div>
+                            <h5><span>Tools:</span></h5>
+                        </div>
+                        <img src="./assets/icons/mysql.svg" alt="">
+                        <img src="./assets/icons/nodejs.svg" alt="">
+                        <img src="./assets/icons/javascript.svg" alt="">
+                        <img src="./assets/icons/npm.svg" alt=""> 
+                   </div> 
+                   </div>
+               </div>  
+            </div>
+            
+                <div class="smCard workDay">
+                    <h3>Work Day Scheduler</h3>
+                    <img src="./assets/images/workDayScheduler.png" alt="image of website whats for dinner" class="wds">
+                    <h4><span>Summary: </span>Daily planner that will  help efficiently mange your time.</h4>
+                    <h4><span>Role: </span>Mock-up provided, Created simple app that allows user to save events for a typical working day(9am-5pm). Utilized Day.js library to work with date and time.
+                    </h4>
+                    <div class="glampIcons">
+                        <div class="sm_icons">
+                            <h5><span>Tools:</span></h5>
+                            <img src="./assets/icons/jquery.svg" alt="">
+                            <img src="./assets/icons/html.svg" alt="">
+                            <img src="./assets/icons/css.svg" alt="">
+                            <img src="./assets/icons/bootstrap.svg" alt="">
+                            <img src="./assets/icons/javascript.svg" alt="">
+                       </div>   
+                    </div>
+                </div>  
+            </section>
+        </div> 
+        </div>    
       </section>
+      <footer>
+        <section class="contact" id="contact">
+            <div class="contactForm">
+                <h5>Contact Me</h5>
+                <p>Any questions or remarks? Please contact me!</p>
+                <form action="#">
+                    <div class="contactInfo">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" value="">
+                        <label for="userName">Name:</label>
+                        <input type="userName" id="userName" value>
+                    </div>
+                        <input class="submit-btn" type="submit" value="Submit">
+                </form>
+            </div>
+        </section>
+        <div class="outerWrapper">
+        <div class="contact-wrapper">
+        <section class="contactIcons">
+         
+            <div class="contactCard">
+                <img src="./assets/icons/github.svg" alt="">
+                <h6>Github</h6>
+                <a href="https://github.com/Terence-A">View My Github</a>
+            </div>
+            <div class="contactCard">
+                <img src="./assets/icons/linkedin.svg" alt="">
+                <h6>LinkedIn</h6>
+                <a href="https://www.linkedin.com/in/terence-arseneault-90489b265/">View My LinkedIn</a>
+            </div>
+            <div class="contactCard">
+                <img src="./assets/icons/globe.svg" alt="">
+                <h6>Location</h6>
+                <a href="https://www.google.ca/maps/place/Saint+John,+NB/@45.110292,-66.0418475,10z/data=!3m1!4b1!4m6!3m5!1s0x4ca7c50d1ef9f977:0xf08156072617d267!8m2!3d45.2733153!4d-66.063308!16zL20vMDc0cjA?entry=ttu">Saint John NB, Canada</a>
+            </div>
+        
+      
+        </section>
+        </div>
+        </div>
+      </footer>
     </main>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   </body>
 </html>
