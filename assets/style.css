@@ -6,6 +6,9 @@ body {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   background-color: rgb(246, 247, 242);
 }
+h1 {
+  font-weight: 900;
+}
 .wrapper {
   background-image: url("/assets/images/background.avif");
   background-size: cover;
@@ -33,6 +36,9 @@ body {
   font-size: 1.5rem;
   font-weight: 900;
 }
+.navBarList li a:hover {
+  color: rgba(0, 0, 0, 0.719);
+}
 .about {
   display: flex;
   align-items: center;
@@ -45,7 +51,9 @@ body {
   padding: 100px;
 }
 h2 {
+  text-align: center;
   font-size: 2.5rem;
+  font-weight: 900;
 }
 .leftContainer p {
   font-size: 1rem;
@@ -56,7 +64,7 @@ h2 {
 
 .rightContainer img {
   width: 600px;
-  margin-right: 120px;
+  margin-right: 100px;
   border-radius: 50%;
 }
 .myWork {
@@ -66,8 +74,6 @@ h2 {
   background-color: rgba(219, 219, 213, 0.678);
   height: 100%;
 }
-/* .containerWork {
-} */
 
 .workTitle {
   text-align: center;
@@ -126,7 +132,7 @@ h2 {
 .glampIcons {
   display: flex;
   justify-content: space-around;
-  height: 100px;
+  height: 50px;
   margin-top: 15px;
 }
 .glampIcons img span {
@@ -280,4 +286,162 @@ img.wds {
 .outerWrapper {
   background-color: rgba(13, 130, 136, 0.788);
   height: 300px;
+}
+
+@media screen and (max-width: 1380px) {
+  .top-cards {
+    flex-wrap: wrap;
+  }
+  .weather-card {
+    margin: 75px auto 0 auto;
+  }
+  .employeeCard {
+    margin: 37px 0;
+  }
+  .bottom-cards {
+    flex-wrap: wrap;
+  }
+  .workDay {
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 1394px) {
+  .rightContainer img {
+    width: 400px;
+    margin: 0;
+  }
+  .about {
+    align-items: flex-start;
+  }
+  .leftContainer {
+    align-items: flex-start;
+    margin: 0;
+  }
+  .leftContainer h2 {
+    font-size: 1.5rem;
+    text-align: start;
+  }
+  .leftContainer p {
+    font-size: 0.8rem;
+    text-align: start;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .wrapper {
+    padding: 25px;
+  }
+  .navBarList {
+    width: 400px;
+  }
+  .navBarList li a {
+    font-size: 1rem;
+  }
+  h1 {
+    font-size: 1.5rem;
+    font-weight: 900;
+  }
+  .leftContainer {
+    padding: 100px 0 0 0;
+  }
+  .rightContainer {
+    padding-right: 10px;
+  }
+  .glamping {
+    width: 600px;
+  }
+  .workTitle {
+    font-size: 2rem;
+    padding: 20px 0 10px 0;
+  }
+  .containerLgCard img {
+    object-fit: contain;
+    height: 300px;
+  }
+  .roles h4 {
+    width: 596px;
+  }
+  .contactIcons {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: auto;
+    height: 700px;
+  }
+  .contact-wrapper {
+    width: 400px;
+    height: 100%;
+  }
+  .outerWrapper {
+    height: 100%;
+  }
+}
+@media screen and (max-width: 760px) {
+  .about {
+    flex-direction: column;
+    align-items: center;
+  }
+  .mainNav {
+    flex-direction: column;
+  }
+  .contactForm .submit-btn {
+    width: 300px;
+  }
+  .contactInfo {
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    margin: auto;
+    padding-bottom: 30px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .smCard {
+    width: 360px;
+  }
+  .smCard img {
+    width: 320px;
+    object-fit: contain;
+    max-height: 200px;
+  }
+
+  .smCard h4 {
+    width: 300px;
+  }
+  .sm_icons {
+    width: 300px;
+  }
+  .sm_icons img {
+    width: 25px;
+  }
+  .glamping {
+    width: 350px;
+    margin: 0;
+  }
+  .glamping h3 {
+    font-size: 1.2rem;
+    margin: 0 0 25px 0;
+  }
+  .glamping h4 {
+    font-size: 0.8rem;
+    width: 325px;
+  }
+  .glampIcons img {
+    width: 25px;
+  }
+}
+@media screen and (max-width: 428px) {
+  .mainNav {
+    justify-content: center;
+  }
+  .navBarList {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+  .navBarList li {
+    margin-top: 10px;
+  }
+  .leftContainer {
+    padding-top: 70px;
+  }
 }
