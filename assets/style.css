@@ -13,7 +13,7 @@ body {
 }
 .mainNav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   padding: 10px 0;
 }
@@ -21,7 +21,8 @@ body {
 .navBarList {
   display: flex;
   justify-content: space-between;
-  width: 400px;
+  width: 500px;
+  margin: 0;
 }
 .navBarList li {
   list-style: none;
@@ -30,6 +31,7 @@ body {
   text-decoration: none;
   color: black;
   font-size: 1.5rem;
+  font-weight: 900;
 }
 .about {
   display: flex;
@@ -43,10 +45,11 @@ body {
   padding: 100px;
 }
 h2 {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 .leftContainer p {
-  font-size: 1.2rem;
+  font-size: 1rem;
+  line-height: 2rem;
   font-family: cursive;
   text-align: center;
 }
@@ -61,6 +64,7 @@ h2 {
   flex-direction: column;
   align-items: center;
   background-color: rgba(219, 219, 213, 0.678);
+  height: 100%;
 }
 /* .containerWork {
 } */
@@ -69,7 +73,8 @@ h2 {
   text-align: center;
   font-size: 3rem;
   color: rgb(53, 38, 0);
-  padding: 0 0 55px 0;
+  padding: 0 0 30px 0;
+  margin-top: 20px;
 }
 .containerWork h3 {
   font-size: 1.3rem;
@@ -81,9 +86,12 @@ h2 {
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
 }
+.containerLgCard {
+  display: flex;
+}
 
 .containerLgCard img {
-  width: 1050px;
+  width: 950px;
   height: 700px;
   object-fit: cover;
   margin: 0;
@@ -109,7 +117,7 @@ h2 {
   width: 400px;
 }
 .roles h4 {
-  width: 1000px;
+  width: 940px;
   padding-left: 25px;
   font-size: 1rem;
   font-weight: 200;
@@ -128,4 +136,148 @@ h2 {
 span {
   font-size: 1.5rem;
   font-weight: 600;
+}
+
+/* Small cards top row  */
+.top-cards {
+  display: flex;
+}
+
+.containerSmCard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 600px;
+}
+.smCard {
+  align-items: center;
+  width: 600px;
+  margin: 75px;
+  padding: 25px;
+  border-radius: 10px;
+  background-color: rgba(219, 219, 213, 0.247);
+  border: 0px solid rgba(219, 219, 213, 0.678);
+  box-shadow: 0 0 10px rgb(172, 172, 164);
+}
+.smCard img {
+  width: 500px;
+  margin-bottom: 35px;
+  border-radius: 10px;
+}
+.smCard h3 {
+  text-align: center;
+  font-size: 1.2rem;
+  padding-bottom: 10px;
+}
+.smCard h4 {
+  font-size: 0.8rem;
+  margin: 10px 0;
+  width: 550px;
+}
+.smCard span {
+  font-size: 1rem;
+}
+.smCard .glampIcons {
+  display: flex;
+  flex-direction: column;
+  height: 55px;
+}
+.sm_icons {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  margin-left: 0;
+}
+.glampIcons img {
+  width: 40px;
+  margin: 0px;
+}
+.glampIcons img:hover {
+  width: 45px;
+}
+.weather-card .main-img {
+  height: 292px;
+}
+
+.bottom-cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+.employeeCard {
+  height: 562px;
+}
+.workDay {
+  height: 562px;
+}
+img.wds {
+  height: 282px;
+}
+
+/* Contact info  */
+.contact {
+  text-align: center;
+}
+.contactForm h5 {
+  margin-top: 35px;
+  font-size: 2rem;
+  font-weight: 900;
+}
+.contactForm p {
+  font-weight: 900;
+  margin-bottom: 25px;
+}
+.contactForm input {
+  border: none;
+  background-color: rgb(219, 219, 213);
+  border-radius: 30px;
+  padding: 10px;
+  margin: 15px;
+}
+.contactForm .submit-btn {
+  width: 630px;
+  background-color: rgba(13, 130, 136, 0.788);
+  color: white;
+  margin-bottom: 90px;
+}
+.contactIcons {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 150px;
+  position: relative;
+  bottom: 50px;
+}
+.contactIcons img {
+  width: 150px;
+  padding: 25px;
+  background-color: rgb(19, 148, 155);
+  border-radius: 50%;
+}
+.contactCard {
+  display: flex;
+  flex-direction: column;
+  width: 230px;
+  align-items: center;
+  margin: 0 35px;
+  height: 250px;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.contact-wrapper {
+  background-color: rgb(219, 219, 213);
+  position: relative;
+  bottom: 80px;
+  display: flex;
+  margin: auto;
+  height: 225px;
+  width: 900px;
+  margin-top: 120px;
+}
+
+.lowerContactSection {
+  background-color: rgb(19, 148, 155);
+}
+.outerWrapper {
+  background-color: rgba(13, 130, 136, 0.788);
+  height: 300px;
 }
