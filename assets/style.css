@@ -106,9 +106,21 @@ h2 {
   margin: 25px 0;
   font-size: 1.5rem;
 }
-/* .glamping {
-  
-} */
+#glamping {
+  cursor: pointer;
+}
+#whatsForDinner .smCard {
+  cursor: pointer;
+}
+#weatherApp {
+  cursor: pointer;
+}
+#employeeTracker .smCard {
+  cursor: pointer;
+}
+#workDay {
+  cursor: pointer;
+}
 .glampIcons img {
   width: 50px;
   height: 55px;
